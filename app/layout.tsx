@@ -1,8 +1,8 @@
 import './globals.css'
 import { Inter, Crimson_Pro } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
-const crimsonPro = Crimson_Pro({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const crimsonPro = Crimson_Pro({ subsets: ['latin'], variable: '--font-crimson' })
 
 export const metadata = {
   title: 'Evil Triumphs Over Good',
